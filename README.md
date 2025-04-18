@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # personal_money_management_app
 
 Personal Expense Tracker App
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+# Personal-Money-Management-App-Flutter
+This a flutter app I am developing for my personal money management.I want this app to be offline and simple for easy management.
+
