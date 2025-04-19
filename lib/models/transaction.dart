@@ -2,8 +2,8 @@ class TransactionModel {
   int? id;
   String title;
   double amount;
-  String date;
-  String type; // income or expense
+  String date; // You can later switch to DateTime if needed
+  String type; // 'income' or 'expense'
 
   TransactionModel({
     this.id,
@@ -13,6 +13,13 @@ class TransactionModel {
     required this.type,
   });
 
+  // For printing or debugging
+  @override
+  String toString() {
+    return 'TransactionModel(id: $id, title: $title, amount: $amount, date: $date, type: $type)';
+  }
+
+  // For JSON encoding/decoding if needed (e.g., Hive, SQLite, APIs)
   Map<String, dynamic> toMap() {
     return {
       'id': id,

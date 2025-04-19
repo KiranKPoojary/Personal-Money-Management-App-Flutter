@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # personal_money_management_app
 
 Personal Expense Tracker App
